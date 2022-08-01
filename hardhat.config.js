@@ -16,7 +16,7 @@ module.exports = {
   },
   etherscan: {
     apiKey: {
-      binance: process.env.BSCSCAN_API_KEY
+      bsc: process.env.BSCSCAN_API_KEY
     }
   }
 };

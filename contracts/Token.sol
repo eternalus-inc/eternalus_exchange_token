@@ -61,4 +61,6 @@ contract Token is Ownable, ERC20, AccessControl {
     require(hasRole(minterRole, account), "not_minter");
     _revokeRole(minterRole, account);
   }
+
+  receive() external payable {}
 }
